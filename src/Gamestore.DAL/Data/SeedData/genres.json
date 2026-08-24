@@ -1,0 +1,68 @@
+﻿[
+  {
+    "id": "1a550b8e-1ee3-4b46-8209-53f5a27d8c5a",
+    "name": "Strategy",
+    "subGenres": [
+      {
+        "id": "8ed6b4f2-d12f-4d04-bfbb-5a2470cb8c68",
+        "name": "RTS"
+      },
+      {
+        "id": "3cb1d1c8-2070-4d84-92db-9aed3bf15b0e",
+        "name": "TBS"
+      }
+    ]
+  },
+  {
+    "id": "fe13b7d1-3a89-4d8c-9f83-5a63e056cae6",
+    "name": "RPG"
+  },
+  {
+    "id": "1778cda1-ff57-44c1-a551-c3e8fc4edb2b",
+    "name": "Sports"
+  },
+  {
+    "id": "70f1f908-14b7-4441-8be1-d3879cdfc41e",
+    "name": "Races",
+    "subGenres": [
+      {
+        "id": "64c65702-b3cb-40c3-810a-9c334dfe1b6f",
+        "name": "Rally"
+      },
+      {
+        "id": "f6be7bbc-367e-49b9-9d81-07c5041ac899",
+        "name": "Arcade"
+      },
+      {
+        "id": "83cef2d7-cabb-4023-8fca-9f2f8ad2f7d7",
+        "name": "Formula"
+      },
+      {
+        "id": "e866c4db-a2e6-4cdd-a82c-8db9ad6be1e2",
+        "name": "Off-road"
+      }
+    ]
+  },
+  {
+    "id": "fd314fdc-f2a9-45bb-9227-b70b849d1610",
+    "name": "Action",
+    "subGenres": [
+      {
+        "id": "5a382f9a-863b-455f-abcb-8aef71e8deef",
+        "name": "FPS"
+      },
+      {
+        "id": "f0d6290e-fb5e-43dc-9a84-2cbc935bf902",
+        "name": "TPS"
+      }
+    ]
+  },
+  {
+    "id": "b74cb1ff-ef8f-4321-843e-1d5a33e573a1",
+    "name": "Adventure"
+  },
+  {
+    "id": "1e9ba6fa-70c2-4137-89e0-0413207580ec",
+    "name": "Puzzle & Skill"
+  }
+]

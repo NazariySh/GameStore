@@ -1,0 +1,8 @@
+microservice/publish/*.dll filter=lfs diff=lfs merge=lfs -text
+microservice/publish/*.exe filter=lfs diff=lfs merge=lfs -text
+microservice/publish/*.pdb filter=lfs diff=lfs merge=lfs -text
+microservice/publish/*.pak filter=lfs diff=lfs merge=lfs -text
+microservice/publish/*.bin filter=lfs diff=lfs merge=lfs -text
+microservice/publish/*.dat filter=lfs diff=lfs merge=lfs -text
+AuthService/*.exe filter=lfs diff=lfs merge=lfs -text
+AuthService/*.dll filter=lfs diff=lfs merge=lfs -text

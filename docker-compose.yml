@@ -1,0 +1,91 @@
+services:
+  gamestore.webapi:
+    image: gamestorewebapi
+    container_name: gamestore-webapi
+    build:
+      context: .
+      dockerfile: src/Gamestore.WebApi/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ConnectionStrings__GamestoreDatabase=Server=sqlserver,1433;Database=GamestoreDb;User Id=sa;Password=StrongPassword1234!;Trust Server Certificate=True;Connect Timeout=30
+      - ConnectionStrings__NorthwindDatabase=mongodb://admin:StrongPassword1234!@mongodb:27017/Northwind?authSource=admin
+      - PaymentApi__BaseUrl=http://payment.webapi:5000/api/
+      - ExternalAuthApi__BaseUrl=http://host.docker.internal:5037/api/
+    ports:
+      - 8080:8080
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+      mongodb:
+        condition: service_healthy
+      payment.webapi:
+        condition: service_started
+
+  gamestore.client:
+    image: gamestoreclient
+    container_name: gamestore-client
+    build:
+      context: src/Gamestore.UI
+      dockerfile: Dockerfile
+    ports:
+      - 4200:80
+    depends_on:
+      - gamestore.webapi
+
+  payment.webapi:
+    image: paymentwebapi
+    container_name: payment-webapi
+    build:
+      context: microservice
+      dockerfile: Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=5000
+      - ASPNETCORE_URLS=http://0.0.0.0:5000
+    ports:
+      - 5000:5000
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=StrongPassword1234!
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+    ports:
+      - 1433:1433
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P 'StrongPassword1234!' -C -Q \"SELECT 1\" -b -o /dev/null || exit 1"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+      start_period: 10s
+
+  mongodb:
+    image: mongodb
+    container_name: mongodb
+    build:
+      context: mongo-init-scripts
+      dockerfile: Dockerfile
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: StrongPassword1234!
+      MONGO_INITDB_DATABASE: Northwind
+    volumes:
+      - mongodb-data:/data/db
+      - mongodb-logs:/var/log/mongodb
+    ports:
+      - 27017:27017
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+      start_period: 10s
+
+volumes:
+  sqlserver-data:
+  mongodb-data:
+  mongodb-logs:

@@ -1,0 +1,64 @@
+[
+  {
+    "id": "e2a4c9f1-53b7-4b1a-8a72-5f3e7adc9123",
+    "name": "Administrator",
+    "permissions": [
+      "ManageUsers",
+      "ManageRoles",
+      "ViewDeletedGames",
+      "ManageCommentsForDeletedGames",
+      "EditDeletedGames",
+      "EditOrdersFromHistory",
+      "ManageGames",
+      "ManageGenres",
+      "ManagePlatforms",
+      "ManagePublishers",
+      "EditOrders",
+      "ViewOrdersHistory",
+      "ChangeOrderStatusToShipped",
+      "ManageGameComments",
+      "BanUserFromCommenting",
+      "CommentGames",
+      "ManageUserProfile",
+      "BuyGames"
+    ]
+  },
+  {
+    "id": "4c7b2e65-9f32-46c5-b182-7a4d9e2c45f6",
+    "name": "Manager",
+    "permissions": [
+      "ManageGames",
+      "ManageGenres",
+      "ManagePlatforms",
+      "ManagePublishers",
+      "EditOrders",
+      "ViewOrdersHistory",
+      "ChangeOrderStatusToShipped",
+      "ManageGameComments",
+      "BanUserFromCommenting",
+      "CommentGames",
+      "ManageUserProfile",
+      "BuyGames"
+    ]
+  },
+  {
+    "id": "12d8a7b9-65de-4f4c-93a1-8b1f27e3c678",
+    "name": "Moderator",
+    "permissions": [
+      "ManageGameComments",
+      "BanUserFromCommenting",
+      "CommentGames",
+      "ManageUserProfile",
+      "BuyGames"
+    ]
+  },
+  {
+    "id": "7f9c3e24-b6a1-43d7-a8c5-2e1d3b49f5a9",
+    "name": "User",
+    "permissions": [
+      "CommentGames",
+      "ManageUserProfile",
+      "BuyGames"
+    ]
+  }
+]

@@ -1,0 +1,366 @@
+﻿[
+  {
+    "id": "11b07e1f-1cf2-4c0d-b0a2-d46fd3d74a11",
+    "name": "Star Command",
+    "key": "star-command",
+    "description": "A space-themed RTS strategy game.",
+    "price": 39.99,
+    "unitInStock": 50,
+    "discount": 5,
+    "viewCount": 23,
+    "commentCount": 3,
+    "createdAt": "2023-05-14T00:00:00Z",
+    "genres": [
+      "1a550b8e-1ee3-4b46-8209-53f5a27d8c5a",
+      "8ed6b4f2-d12f-4d04-bfbb-5a2470cb8c68"
+    ],
+    "platforms": [
+      "d2c0ee9f-1d39-4c12-8106-71a86045e6e4",
+      "b9ef7c87-b60d-4f06-8797-56e96743fdc1"
+    ],
+    "publisher": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190001"
+  },
+  {
+    "id": "22954e2e-6659-4662-8d7c-9ac04f3a0ea6",
+    "name": "Formula Fury",
+    "key": "formula-fury",
+    "description": "Fast-paced formula racing game.",
+    "price": 29.99,
+    "unitInStock": 75,
+    "discount": 15,
+    "viewCount": 247,
+    "commentCount": 13,
+    "createdAt": "2022-11-20T00:00:00Z",
+    "genres": [
+      "70f1f908-14b7-4441-8be1-d3879cdfc41e",
+      "83cef2d7-cabb-4023-8fca-9f2f8ad2f7d7"
+    ],
+    "platforms": [
+      "68e29181-8a50-4be1-bd6a-1946ac4ab1c8"
+    ],
+    "publisher": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190002"
+  },
+  {
+    "id": "39fc2c6d-f7dc-4cd7-85a0-79b3f62ff88e",
+    "name": "Fantasy Realms",
+    "key": "fantasy-realms",
+    "description": "An epic fantasy realms with rich storytelling.",
+    "price": 49.99,
+    "unitInStock": 60,
+    "discount": 0,
+    "viewCount": 36,
+    "commentCount": 2,
+    "createdAt": "2021-08-05T00:00:00Z",
+    "genres": [
+      "fe13b7d1-3a89-4d8c-9f83-5a63e056cae6"
+    ],
+    "platforms": [
+      "b9ef7c87-b60d-4f06-8797-56e96743fdc1",
+      "d2c0ee9f-1d39-4c12-8106-71a86045e6e4"
+    ],
+    "publisher": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190003"
+  },
+  {
+    "id": "4f1c650a-883b-4b47-a989-9d3e8de54233",
+    "name": "Rally Racer X",
+    "key": "rally-racer-x",
+    "description": "Off-road rally racing simulation.",
+    "price": 34.99,
+    "unitInStock": 80,
+    "discount": 10,
+    "viewCount": 58,
+    "commentCount": 1,
+    "createdAt": "2022-02-11T00:00:00Z",
+    "genres": [
+      "70f1f908-14b7-4441-8be1-d3879cdfc41e",
+      "64c65702-b3cb-40c3-810a-9c334dfe1b6f"
+    ],
+    "platforms": [
+      "f448a541-a3c3-49d8-bdd7-821e91afa5d8",
+      "b9ef7c87-b60d-4f06-8797-56e96743fdc1"
+    ],
+    "publisher": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190004"
+  },
+  {
+    "id": "53aa902d-111c-42c4-8136-65208d3b30d6",
+    "name": "Puzzle Box",
+    "key": "puzzle-box",
+    "description": "Mind-bending puzzle and skill game.",
+    "price": 19.99,
+    "unitInStock": 40,
+    "discount": 0,
+    "viewCount": 19,
+    "commentCount": 1,
+    "createdAt": "2023-07-08T00:00:00Z",
+    "genres": [
+      "1e9ba6fa-70c2-4137-89e0-0413207580ec"
+    ],
+    "platforms": [
+      "f448a541-a3c3-49d8-bdd7-821e91afa5d8"
+    ],
+    "publisher": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190005"
+  },
+  {
+    "id": "6158b497-e7a4-47e5-9c50-3a5d2a2c7b61",
+    "name": "Combat Arena",
+    "key": "combat-arena",
+    "description": "Intense multiplayer TPS action.",
+    "price": 44.99,
+    "unitInStock": 70,
+    "discount": 20,
+    "viewCount": 85,
+    "commentCount": 1,
+    "createdAt": "2020-09-25T00:00:00Z",
+    "genres": [
+      "fd314fdc-f2a9-45bb-9227-b70b849d1610",
+      "f0d6290e-fb5e-43dc-9a84-2cbc935bf902"
+    ],
+    "platforms": [
+      "68e29181-8a50-4be1-bd6a-1946ac4ab1c8"
+    ],
+    "publisher": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190001"
+  },
+  {
+    "id": "725d84fa-51a7-44a5-9466-8cfad1b56de4",
+    "name": "Fantasy Rally",
+    "key": "fantasy-rally",
+    "description": "Combines fantasy and off-road rally gameplay.",
+    "price": 54.99,
+    "unitInStock": 65,
+    "discount": 5,
+    "viewCount": 64,
+    "commentCount": 0,
+    "createdAt": "2021-12-17T00:00:00Z",
+    "genres": [
+      "fe13b7d1-3a89-4d8c-9f83-5a63e056cae6",
+      "e866c4db-a2e6-4cdd-a82c-8db9ad6be1e2"
+    ],
+    "platforms": [
+      "d2c0ee9f-1d39-4c12-8106-71a86045e6e4"
+    ],
+    "publisher": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190002"
+  },
+  {
+    "id": "84bc2cd6-6c29-4b4a-b8cb-7b20137aa1c9",
+    "name": "Sniper Hunt",
+    "key": "sniper-hunt",
+    "description": "Stealth-based FPS sniper game.",
+    "price": 42.99,
+    "unitInStock": 90,
+    "discount": 12,
+    "viewCount": 29,
+    "commentCount": 3,
+    "createdAt": "2023-01-19T00:00:00Z",
+    "genres": [
+      "fd314fdc-f2a9-45bb-9227-b70b849d1610",
+      "5a382f9a-863b-455f-abcb-8aef71e8deef"
+    ],
+    "platforms": [
+      "68e29181-8a50-4be1-bd6a-1946ac4ab1c8",
+      "b9ef7c87-b60d-4f06-8797-56e96743fdc1"
+    ],
+    "publisher": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190003"
+  },
+  {
+    "id": "9ed3a711-0e27-434b-bc87-3a48a93d276c",
+    "name": "Adventure Quest",
+    "key": "adventure-quest",
+    "description": "Classic point-and-click adventure game.",
+    "price": 27.99,
+    "unitInStock": 45,
+    "discount": 0,
+    "viewCount": 13,
+    "commentCount": 0,
+    "createdAt": "2022-04-06T00:00:00Z",
+    "genres": [
+      "b74cb1ff-ef8f-4321-843e-1d5a33e573a1"
+    ],
+    "platforms": [
+      "f448a541-a3c3-49d8-bdd7-821e91afa5d8"
+    ],
+    "publisher": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190004"
+  },
+  {
+    "id": "aab8570a-037e-4988-b139-b63f5d5f5e7e",
+    "name": "Tabletop War",
+    "key": "tabletop-war",
+    "description": "Turn-based strategy game with miniatures.",
+    "price": 31.99,
+    "unitInStock": 55,
+    "discount": 8,
+    "viewCount": 38,
+    "commentCount": 0,
+    "createdAt": "2021-03-28T00:00:00Z",
+    "genres": [
+      "1a550b8e-1ee3-4b46-8209-53f5a27d8c5a",
+      "3cb1d1c8-2070-4d84-92db-9aed3bf15b0e"
+    ],
+    "platforms": [
+      "b9ef7c87-b60d-4f06-8797-56e96743fdc1"
+    ],
+    "publisher": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190005"
+  },
+  {
+    "id": "1f3b9c7b-5c99-4bcb-bb89-1a9b7d190001",
+    "name": "Cyberpunk 2077",
+    "key": "cyberpunk-2077",
+    "description": "A futuristic open-world RPG set in Night City.",
+    "price": 59.99,
+    "unitInStock": 100,
+    "discount": 10,
+    "viewCount": 40,
+    "commentCount": 0,
+    "createdAt": "2020-12-10T00:00:00Z",
+    "genres": [
+      "fd314fdc-f2a9-45bb-9227-b70b849d1610",
+      "fe13b7d1-3a89-4d8c-9f83-5a63e056cae6"
+    ],
+    "platforms": [
+      "b9ef7c87-b60d-4f06-8797-56e96743fdc1",
+      "68e29181-8a50-4be1-bd6a-1946ac4ab1c8"
+    ],
+    "publisher": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190001"
+  },
+  {
+    "id": "1f3b9c7b-5c99-4bcb-bb89-1a9b7d190002",
+    "name": "Elden Ring",
+    "key": "elden-ring",
+    "description": "An open-world action RPG by FromSoftware.",
+    "price": 69.99,
+    "unitInStock": 150,
+    "discount": 5,
+    "viewCount": 120,
+    "commentCount": 0,
+    "createdAt": "2022-02-25T00:00:00Z",
+    "genres": [
+      "fd314fdc-f2a9-45bb-9227-b70b849d1610",
+      "fe13b7d1-3a89-4d8c-9f83-5a63e056cae6"
+    ],
+    "platforms": [
+      "b9ef7c87-b60d-4f06-8797-56e96743fdc1",
+      "68e29181-8a50-4be1-bd6a-1946ac4ab1c8"
+    ],
+    "publisher": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190002"
+  },
+  {
+    "id": "1f3b9c7b-5c99-4bcb-bb89-1a9b7d190003",
+    "name": "FIFA 23",
+    "key": "fifa-23",
+    "description": "The latest installment in the FIFA sports game series.",
+    "price": 49.99,
+    "unitInStock": 200,
+    "discount": 0,
+    "viewCount": 75,
+    "commentCount": 0,
+    "createdAt": "2022-09-30T00:00:00Z",
+    "genres": [
+      "1778cda1-ff57-44c1-a551-c3e8fc4edb2b"
+    ],
+    "platforms": [
+      "68e29181-8a50-4be1-bd6a-1946ac4ab1c8",
+      "b9ef7c87-b60d-4f06-8797-56e96743fdc1"
+    ],
+    "publisher": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190003"
+  },
+  {
+    "id": "1f3b9c7b-5c99-4bcb-bb89-1a9b7d190004",
+    "name": "Mario Kart",
+    "key": "mario-kart",
+    "description": "A fun and fast-paced racing game featuring Nintendo characters.",
+    "price": 39.99,
+    "unitInStock": 80,
+    "discount": 25,
+    "viewCount": 90,
+    "commentCount": 0,
+    "createdAt": "2023-03-10T00:00:00Z",
+    "genres": [
+      "64c65702-b3cb-40c3-810a-9c334dfe1b6f"
+    ],
+    "platforms": [
+      "68e29181-8a50-4be1-bd6a-1946ac4ab1c8"
+    ],
+    "publisher": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190004"
+  },
+  {
+    "id": "1f3b9c7b-5c99-4bcb-bb89-1a9b7d190005",
+    "name": "Hollow Knight",
+    "key": "hollow-knight",
+    "description": "A challenging 2D action adventure through a vast ruined kingdom.",
+    "price": 19.99,
+    "unitInStock": 50,
+    "discount": 0,
+    "viewCount": 55,
+    "commentCount": 0,
+    "createdAt": "2017-02-24T00:00:00Z",
+    "genres": [
+      "b74cb1ff-ef8f-4321-843e-1d5a33e573a1",
+      "1e9ba6fa-70c2-4137-89e0-0413207580ec"
+    ],
+    "platforms": [
+      "b9ef7c87-b60d-4f06-8797-56e96743fdc1"
+    ],
+    "publisher": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190005"
+  },
+  {
+    "id": "b71c2f9d-27b2-4c3f-9f45-11c2337a62d1",
+    "name": "Neon Horizon",
+    "key": "neon-horizon",
+    "description": "A cyberpunk open-world RPG with branching storylines.",
+    "price": 69.99,
+    "unitInStock": 120,
+    "discount": 0,
+    "viewCount": 12,
+    "commentCount": 0,
+    "createdAt": "2025-08-25T00:00:00Z",
+    "genres": [
+      "fd314fdc-f2a9-45bb-9227-b70b849d1610",
+      "fe13b7d1-3a89-4d8c-9f83-5a63e056cae6"
+    ],
+    "platforms": [
+      "b9ef7c87-b60d-4f06-8797-56e96743fdc1",
+      "68e29181-8a50-4be1-bd6a-1946ac4ab1c8"
+    ],
+    "publisher": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190001"
+  },
+  {
+    "id": "a4c8c6af-0a5a-4e2d-8df9-8db9b03d05a7",
+    "name": "Starlight Odyssey",
+    "key": "starlight-odyssey",
+    "description": "Space exploration and survival game with procedurally generated galaxies.",
+    "price": 59.99,
+    "unitInStock": 85,
+    "discount": 10,
+    "viewCount": 7,
+    "commentCount": 0,
+    "createdAt": "2025-07-19T00:00:00Z",
+    "genres": [
+      "1a550b8e-1ee3-4b46-8209-53f5a27d8c5a",
+      "8ed6b4f2-d12f-4d04-bfbb-5a2470cb8c68"
+    ],
+    "platforms": [
+      "d2c0ee9f-1d39-4c12-8106-71a86045e6e4"
+    ],
+    "publisher": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190002"
+  },
+  {
+    "id": "5d9f0c8b-21d6-44a2-9e15-f77e3db8fa5e",
+    "name": "Eclipse Tactics",
+    "key": "eclipse-tactics",
+    "description": "A tactical turn-based sci-fi strategy game with cooperative online campaigns.",
+    "price": 49.99,
+    "unitInStock": 65,
+    "discount": 5,
+    "viewCount": 3,
+    "commentCount": 0,
+    "createdAt": "2025-09-01T00:00:00Z",
+    "genres": [
+      "3cb1d1c8-2070-4d84-92db-9aed3bf15b0e",
+      "e866c4db-a2e6-4cdd-a82c-8db9ad6be1e2"
+    ],
+    "platforms": [
+      "f448a541-a3c3-49d8-bdd7-821e91afa5d8",
+      "b9ef7c87-b60d-4f06-8797-56e96743fdc1"
+    ],
+    "publisher": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190003"
+  }
+]

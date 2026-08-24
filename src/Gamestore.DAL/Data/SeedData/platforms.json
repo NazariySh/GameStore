@@ -1,0 +1,18 @@
+﻿[
+  {
+    "id": "d2c0ee9f-1d39-4c12-8106-71a86045e6e4",
+    "type": "Mobile"
+  },
+  {
+    "id": "f448a541-a3c3-49d8-bdd7-821e91afa5d8",
+    "type": "Browser"
+  },
+  {
+    "id": "b9ef7c87-b60d-4f06-8797-56e96743fdc1",
+    "type": "Desktop"
+  },
+  {
+    "id": "68e29181-8a50-4be1-bd6a-1946ac4ab1c8",
+    "type": "Console"
+  }
+]
