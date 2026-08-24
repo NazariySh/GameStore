@@ -1,0 +1,38 @@
+[
+  {
+    "id": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190000",
+    "companyName": "N|A",
+    "homePage": null,
+    "description": null
+  },
+  {
+    "id": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190001",
+    "companyName": "CD Projekt",
+    "homePage": "https://www.cdprojekt.com",
+    "description": "Polish game developer and publisher of Cyberpunk 2077."
+  },
+  {
+    "id": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190002",
+    "companyName": "FromSoftware",
+    "homePage": null,
+    "description": null
+  },
+  {
+    "id": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190003",
+    "companyName": "Electronic Arts",
+    "homePage": "https://www.ea.com",
+    "description": "Publisher of the FIFA series and other major sports titles."
+  },
+  {
+    "id": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190004",
+    "companyName": "Nintendo",
+    "homePage": "https://www.nintendo.com",
+    "description": "Japanese entertainment company and publisher of Mario Kart."
+  },
+  {
+    "id": "5f1f13d7-0f9d-4c5e-9879-1a9b7d190005",
+    "companyName": "Team Cherry",
+    "homePage": "https://www.teamcherry.com.au",
+    "description": "Indie developer and publisher of Hollow Knight."
+  }
+]

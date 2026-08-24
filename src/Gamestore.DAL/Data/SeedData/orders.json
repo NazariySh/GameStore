@@ -1,0 +1,144 @@
+[
+  {
+    "id": "b1433c7f-fb8c-4e82-92d3-8f3dc176aa9a",
+    "date": "2024-10-15T09:15:00Z",
+    "customerId": "123e4567-e89b-12d3-a456-426614174000",
+    "status": "Open",
+    "orderGames": [
+      {
+        "productId": "11b07e1f-1cf2-4c0d-b0a2-d46fd3d74a11",
+        "price": 39.99,
+        "quantity": 1,
+        "discount": 5
+      },
+      {
+        "productId": "22954e2e-6659-4662-8d7c-9ac04f3a0ea6",
+        "price": 29.99,
+        "quantity": 2,
+        "discount": 15
+      }
+    ]
+  },
+  {
+    "id": "003234dd-8a58-4e6f-8b0a-a6cc34c9a042",
+    "date": "2024-10-15T09:15:00Z",
+    "customerId": "123e4567-e89b-12d3-a456-426614174000",
+    "status": "Cancelled",
+    "orderGames": [
+      {
+        "productId": "39fc2c6d-f7dc-4cd7-85a0-79b3f62ff88e",
+        "price": 49.99,
+        "quantity": 1,
+        "discount": 0
+      },
+      {
+        "productId": "4f1c650a-883b-4b47-a989-9d3e8de54233",
+        "price": 34.99,
+        "quantity": 1,
+        "discount": 10
+      }
+    ]
+  },
+  {
+    "id": "275c9bae-177e-4df9-9e97-883f1c5c23e7",
+    "date": "2023-09-30T14:50:00Z",
+    "customerId": "123e4567-e89b-12d3-a456-426614174000",
+    "status": "Paid",
+    "orderGames": [
+      {
+        "productId": "53aa902d-111c-42c4-8136-65208d3b30d6",
+        "price": 19.99,
+        "quantity": 3,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "id": "640511b0-b13c-4c2d-91d5-eb779e762cc1",
+    "date": "2023-08-05T18:30:00Z",
+    "customerId": "123e4567-e89b-12d3-a456-426614174000",
+    "status": "Cancelled",
+    "orderGames": [
+      {
+        "productId": "6158b497-e7a4-47e5-9c50-3a5d2a2c7b61",
+        "price": 44.99,
+        "quantity": 2,
+        "discount": 20
+      },
+      {
+        "productId": "725d84fa-51a7-44a5-9466-8cfad1b56de4",
+        "price": 54.99,
+        "quantity": 1,
+        "discount": 5
+      }
+    ]
+  },
+  {
+    "id": "af4ef139-bab4-444d-8c8f-54316b586bc3",
+    "date": "2023-11-02T12:00:00Z",
+    "customerId": "123e4567-e89b-12d3-a456-426614174000",
+    "status": "Paid",
+    "orderGames": [
+      {
+        "productId": "84bc2cd6-6c29-4b4a-b8cb-7b20137aa1c9",
+        "price": 42.99,
+        "quantity": 1,
+        "discount": 12
+      },
+      {
+        "productId": "9ed3a711-0e27-434b-bc87-3a48a93d276c",
+        "price": 27.99,
+        "quantity": 2,
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "id": "ece87865-dc1c-4be8-8170-b2dfc473e866",
+    "date": "2023-10-01T12:25:00Z",
+    "customerId": "123e4567-e89b-12d3-a456-426614174000",
+    "status": "Paid",
+    "orderGames": [
+      {
+        "productId": "1f3b9c7b-5c99-4bcb-bb89-1a9b7d190002",
+        "price": 69.99,
+        "quantity": 1,
+        "discount": 5
+      }
+    ]
+  },
+  {
+    "id": "f4e5dd23-dbe6-4eca-9119-f7a1f30bd7ab",
+    "date": "2023-09-28T17:15:00Z",
+    "customerId": "123e4567-e89b-12d3-a456-426614174000",
+    "status": "Paid",
+    "orderGames": [
+      {
+        "productId": "1f3b9c7b-5c99-4bcb-bb89-1a9b7d190003",
+        "price": 49.99,
+        "quantity": 1,
+        "discount": 0
+      },
+      {
+        "productId": "aab8570a-037e-4988-b139-b63f5d5f5e7e",
+        "price": 31.99,
+        "quantity": 1,
+        "discount": 8
+      }
+    ]
+  },
+  {
+    "id": "c4c39ca5-7b26-45d9-969d-368a25d28b79",
+    "date": "2023-08-19T08:45:00Z",
+    "customerId": "123e4567-e89b-12d3-a456-426614174000",
+    "status": "Paid",
+    "orderGames": [
+      {
+        "productId": "39fc2c6d-f7dc-4cd7-85a0-79b3f62ff88e",
+        "price": 49.99,
+        "quantity": 4,
+        "discount": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "5f8d04c7-4d7a-4f98-a0f0-abbc39f67f21",
+    "title": "Bank",
+    "description": "Pay using your bank account.",
+    "imageUrl": "http://localhost:8080/images/payments/bank.jpg"
+  },
+  {
+    "id": "9e6c42d7-3e3a-4c89-9d20-0c7a47c69b81",
+    "title": "IBox terminal",
+    "description": "Pay using IBox terminal.",
+    "imageUrl": "http://localhost:8080/images/payments/ibox.png"
+  },
+  {
+    "id": "a3bf6719-7f55-4dbb-84d6-cb2f64bda8a1",
+    "title": "Visa",
+    "description": "Pay using your Visa card.",
+    "imageUrl": "http://localhost:8080/images/payments/visa.png"
+  }
+]
